@@ -32,3 +32,8 @@ try:
     import panda_gym  # pytype: disable=import-error
 except ImportError:
     panda_gym = None
+
+try:
+    import gym_advanced_fetch  # pytype: disable=import-error
+except ImportError:
+    gym_advanced_fetch = None
